@@ -6,8 +6,6 @@ LABEL maintainer="Todd Swatling (swatling@buffalo.edu)"
 ENV TZ=America/New_York
 
 RUN yum install -y --setopt=tsflags=nodocs lftp && yum clean all -y
-ENV box_password='mH884wFK5fq^*fo^E!Q%cl83d'
-ENV box_user='swatling@buffalo.edu'
 ENV local_base_dir='/'
 ENV box_base_dir='/openshifttest'
 ENV concurrent_uploads='1'
