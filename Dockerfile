@@ -12,4 +12,4 @@ ENV concurrent_uploads='1'
 ENV error_count='0'
 COPY mirror.sh ./mirror.sh
 RUN chmod +x ./mirror.sh
-CMD sleep 1000
+CMD sleep 10000
